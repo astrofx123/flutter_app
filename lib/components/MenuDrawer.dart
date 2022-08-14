@@ -29,7 +29,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
                 ),
               ),
               decoration: new BoxDecoration(
-                  color: Colors.pink
+                  color: Colors.blue
               ),
             ),
 
@@ -42,7 +42,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
               onTap: (){},
               child: ListTile(
                 title: Text('Home Page'),
-                leading: Icon(Icons.home, color: Colors.pink),
+                leading: Icon(Icons.home, color: Colors.blue),
               ),
             ),
 
@@ -50,7 +50,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
               onTap: (){},
               child: ListTile(
                 title: Text('My Account'),
-                leading: Icon(Icons.person, color: Colors.pink),
+                leading: Icon(Icons.person, color: Colors.blue),
               ),
             ),
 
@@ -58,7 +58,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
               onTap: (){},
               child: ListTile(
                 title: Text('My Orders'),
-                leading: Icon(Icons.shopping_cart, color: Colors.pink),
+                leading: Icon(Icons.shopping_cart, color: Colors.blue),
               ),
             ),
 
@@ -66,7 +66,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
               onTap: (){},
               child: ListTile(
                 title: Text('Contact'),
-                leading: Icon(Icons.phone, color: Colors.pink),
+                leading: Icon(Icons.phone, color: Colors.blue),
               ),
             ),
 

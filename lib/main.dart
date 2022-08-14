@@ -1,3 +1,6 @@
+//--no-sound-null-safety
+// @dart=2.9
+
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 
@@ -5,6 +8,8 @@ import 'package:carousel_pro/carousel_pro.dart';
 import 'package:app_project/components/MenuDrawer.dart';
 import 'package:app_project/components/HorizontalSlider.dart';
 import 'package:app_project/components/products.dart';
+
+
 
 void main() {
   runApp(
@@ -16,7 +21,6 @@ void main() {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -49,8 +53,8 @@ class _HomePageState extends State<HomePage> {
 
       appBar: new AppBar(
           elevation: 0.2,
-          backgroundColor: Colors.pink,
-          title: Text('Grocery App'),
+          backgroundColor: Colors.blue,
+          title: Text('Shopping App'),
           actions: <Widget>[
             new IconButton(onPressed: null, icon: Icon(Icons.search, color: Colors.white)),
             new IconButton(onPressed: null, icon: Icon(Icons.shopping_cart, color: Colors.white))
